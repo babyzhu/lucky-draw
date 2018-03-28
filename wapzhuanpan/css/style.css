@@ -1,0 +1,45 @@
+
+@charset "utf-8";
+/* CSS reset */
+html * {outline:0;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+body,nav,dl,dt,dd,p,h1,h2,h3,h4,ul,ol,li,input,button,textarea,footer{margin:0;padding:0}
+body{font:62.5%/1.5 "Helvetica Neue",Helvetica,STHeiTi,sans-serif;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-width:320px}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+img{vertical-align:middle;border:0;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+em,i{font-style:normal}
+img{max-width:100%;border:0}
+input{-webkit-appearance:none}
+input:focus{outline:0}
+table{border-collapse:collapse;border-spacing:0}
+ol,ul,li{list-style:none}
+textarea{resize:none}
+a{text-decoration:none}
+.cf:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.cf{min-height:1%}
+.fl{float:left}
+.fr{float:right}
+.wp{width:320px;margin:0 auto}
+.hide{display:none}
+.show{display:block}
+.ellipsis{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.break{word-break:break-all;word-wrap:break-word}
+body{color: #eae2f7;font-size:.24rem;background: #191027}
+a{color: #eae2f7}
+.pr{position: relative}
+
+.w{margin:0 auto;width:7.5rem;font-size: .24rem;}
+
+/*  */
+.b5 .bd{padding:.5rem 0 0}
+.news-list{width:4.75rem;height: .42rem;line-height: .42rem;color: #eae2f7;font-size: .22rem;overflow:hidden;margin: .26rem auto;background: #382853;border-radius: .21rem;padding:0 .2rem}
+.news-list li em{max-width:1rem;display: inline-block;vertical-align: middle;white-space:nowrap;text-overflow: ellipsis;overflow: hidden;margin: 0 .05rem; }
+.news-list li{height: .42rem;line-height: .42rem;overflow: hidden}
+
+/* cj start*/
+.rotatebg{width: 7.5rem;position: relative;}
+.rotatebg .rotate{width: 6.76rem;height: 6.76rem;margin: 0 auto;display: block;transform-origin:50% 50% 0}
+.rotatebg .btn{position: absolute;width:1.77rem;height: 2.19rem;background: url(../images/cjbtn.png) no-repeat -.03rem 0;left: 2.88rem;top:2rem;background-size:4.49rem 2.3rem;
+	text-indent: -999rem }
+.rotatebg .btn.no{background-position:-2.52rem 0; }
+.b5 .dest{text-align: center;margin: .2rem 0;}
+/* cj end*/

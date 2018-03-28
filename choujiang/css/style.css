@@ -1,0 +1,47 @@
+
+@charset "utf8";
+/*comm*/
+body{font:14px/24px \5FAE\8F6F\96C5\9ED1,\5B8B\4F53;*font-family:\5B8B\4F53;background-color:#fff;color:#333;}
+body,html{overflow-x:hidden;}
+a,body,dd,div,dl,dt,em,form,h1,h2,h3,h4,h5,h6,html,img,input,label,li,ol,p,select,span,ul{margin:0;padding:0}
+input{border:none;border:0;outline:none;outline:0}
+a{color:#333;text-decoration:none;cursor:pointer;outline:none}
+a:hover{text-decoration:none;color:#f60;}
+li,ol,ul{list-style:none}
+em,i{font-style:normal}
+img{border:0}
+.cf{*zoom:1}
+.cf:after{content:'\20';display:block;height:0;clear:both}
+/*com*/
+.none{display:none}
+.fl{display:inline;float:left;}
+.fr{float:right;display:inline}
+.ct{text-align:center;}
+.pr{position:relative}
+.indent{text-indent:-9999px;}
+*html{background-image:url(#);background-attachment:fixed}
+.ov{overflow:hidden}
+/*  */
+.choujiang{padding:40px;background: #7c92db;width: 615px;height: 439px;margin: 20px auto ;border-radius: 20px;}
+.luck{background: url(../images/choujiang.png) no-repeat;width: 615px;height: 439px;position: relative}
+.luck li,.luck li p{position: absolute;width: 150px;height: 106px;}
+.luck li p{left: 0;top: 0;background: url(../images/active.png) no-repeat;display: none;}
+.luck li.on p{display: block}
+.luck .unit-0{left:0;top: 0;}
+.luck .unit-1{left:155px;top: 0;}
+.luck .unit-2{left:310px;top: 0;}
+.luck .unit-3{right:0;top: 0;}
+.luck .unit-4{right:0;top: 111px;}
+.luck .unit-5{right:0;top: 222px;}
+.luck .unit-6{right:0;top: 333px;}
+.luck .unit-7{right:155px;top: 333px;}
+.luck .unit-8{left:155px;top: 333px;}
+.luck .unit-9{left:0;top: 333px;}
+.luck .unit-10{left:0;top: 222px;}
+.luck .unit-11{left:0;top: 111px;}
+.luck .cjbtn{position: absolute;width: 261px;height: 44px;left:178px;top: 150px;text-align: center;font-size: 12px;color: #fff;padding-top:70px;
+background: url(../images/cjbtn.png) no-repeat 0 0;font-weight:bold;}
+.luck .cjbtn:hover{background-position:0 -116px;}
+.luck .kyjf{position: absolute;width:152px;height: 40px;line-height: 40px;text-align: center;background: #696dc3;border-radius: 5px;color: #fff;font-weight: bold;left:232px;top:275px;  }
+.luck .kyjf em{color:#fff49b;}
+
